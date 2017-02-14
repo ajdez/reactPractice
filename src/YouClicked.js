@@ -29,7 +29,6 @@ class YouClicked extends React.Component{
             <div>you clicked {this.state.timesClicked} times</div>
             {this.state.showReset ? <div> you reset {this.state.timesReset} times </div> : null}
          </div>
-
       )
    }
 }

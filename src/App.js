@@ -6,6 +6,7 @@ import Layout from "./Layout.js";
 import GuessThatNumber from "./GuessThatNumber.js";
 import YouClicked from "./YouClicked.js";
 import CharacterCounter from "./CharacterCounter";
+import CharacterLimit from "./CharacterLimit";
 
 var imageList = [
   {id: 42, source: "http://placekitten.com/g/210/210", text: "Hello kittenz!"},
@@ -48,6 +49,8 @@ class App extends Component {
             <YouClicked />
             <hr/>
             <CharacterCounter />
+            <hr/>
+            <CharacterLimit limit={50}/>
          </div>
       )
    }
