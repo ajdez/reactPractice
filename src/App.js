@@ -55,6 +55,8 @@ class App extends Component {
             <CharacterLimit limit={50}/>
             <hr/>
             <NumberGuessing />
+            <hr/>
+            <GithubProfile username={"ajdez"}/>
          </div>
       )
    }
