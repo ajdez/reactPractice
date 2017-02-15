@@ -8,6 +8,7 @@ import YouClicked from "./YouClicked.js";
 import CharacterCounter from "./CharacterCounter";
 import CharacterLimit from "./CharacterLimit";
 import NumberGuessing from "./NumberGuessing";
+import GithubProfile from "./GithubProfile";
 
 var imageList = [
   {id: 42, source: "http://placekitten.com/g/210/210", text: "Hello kittenz!"},
